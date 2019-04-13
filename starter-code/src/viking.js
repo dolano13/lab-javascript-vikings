@@ -32,7 +32,7 @@ class Viking extends Soldier {
     }
   }
   battleCry() {
-    return "Odin Owns!";
+    return "Odin Owns You All!";
   }
 }
 
@@ -107,7 +107,7 @@ class War {
     if (this.vikingArmy.length === 0) {
       return "Saxons have fought for their lives and survive another day...";
     } else {
-      return "Vikings are still in the thick of battle.";
+      return "Vikings and Saxons are still in the thick of battle.";
     }
   }
 }
